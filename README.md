@@ -4,7 +4,7 @@ This project explores the often-overlooked aspect of programming language perfor
 
 ## Overview
 
-Inspired by the viral "1 Billion Row Challenge" that originated in the Java ecosystem, this project takes a systematic approach to measuring I/O performance across multiple languages including C, C++, Go, and Rust. Rather than focusing purely on computation or memory management, these benchmarks specifically target I/O-bound workloads to provide insights into how different languages handle file operations.
+Inspired by the viral [1 Billion Row Challenge](https://github.com/gunnarmorling/1brc) that originated in the Java ecosystem, this project takes a systematic approach to measuring I/O performance across multiple languages including C, C++, Go, and Rust. Rather than focusing purely on computation or memory management, these benchmarks specifically target I/O-bound workloads to provide insights into how different languages handle file operations.
 
 ## Why I/O Benchmarks Matter
 
@@ -26,3 +26,8 @@ Special attention has been paid to ensure that the benchmarks:
 - Run on consistent hardware configurations
 - Account for system-level variations
 - Provide reproducible results
+
+
+## Inspiration
+1brc was a large motivation for this [but so was Anton who benchmarks all web things](https://www.youtube.com/@AntonPutra), the TLDR from his channel is he does web benchmarks for all things from ngix vs kafka to zig vs go vs bun (zig disguised as javascript)  
+I spend too much time watching his videos so I thought I'd scratch the itch and write the benchmark myself.
